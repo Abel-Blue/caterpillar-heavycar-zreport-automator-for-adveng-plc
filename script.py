@@ -12,8 +12,11 @@ day_delay = datetime.date.today().weekday()
 # the process file dated the next day of the file received
 date_process_file = datetime.date.today() - timedelta(days = day_delay)
 
+
+# -------------
 # Days Encode
 # -------------
+# 
 # Monday: 0
 # Tuesday: 1
 # Wednesday: 2
@@ -21,6 +24,8 @@ date_process_file = datetime.date.today() - timedelta(days = day_delay)
 # Friday: 4
 # Saturday: 5
 # Sunday: 6
+# 
+
 
 # Scheduling on Wednesday
 date_process_file = datetime.date.today() - timedelta(days = day_delay - 2)
